@@ -1,0 +1,50 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(54, 54, 54);
+    color: rgb(208, 208, 208);
+    text-align: center;
+    font: 200;
+    font: bold;
+    overflow: hidden;
+}
+
+#fechaIntroducida {
+    font-size: 50px;
+}
+#fechaAhora {
+    font-size: 50px;
+}
+
+#contenedorTiempo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(54, 54, 54);
+    color: rgb(208, 208, 208);
+    text-align: center;
+    font: 200;
+    font: bold;
+}
+#contenedor {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    flex-direction: column;
+}
+#contenedorAbajo {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    flex-direction: column;
+}
